@@ -1,0 +1,16 @@
+
+.board_style {
+    border: 10px;
+    border-color: rgb(212, 10, 10);
+    border-style:ridge;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.winner{
+    text-align: center;
+}
